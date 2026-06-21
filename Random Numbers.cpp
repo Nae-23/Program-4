@@ -1,7 +1,8 @@
 #include <fstream>
 #include <iostream>
 
-int main() {
+int main()
+ {
     std::ifstream input("Random.txt");
     if (!input) {
         std::cout << "Cannot open Random.txt\n";
